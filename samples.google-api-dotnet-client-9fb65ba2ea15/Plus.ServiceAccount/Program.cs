@@ -60,12 +60,16 @@ namespace CibGooglePlay
 
                 var result = request.Execute();//返回数据结构见：https://developers.google.com/android-publisher/api-ref/purchases/products
 
-                //System.Console.WriteLine("result.PurchaseState: " + result.PurchaseState.ToString());
+                //System.Console.WriteLine("result: " + result.ToString());
 
-                if (result.PurchaseState == 0)
+                string retStr = "{\"purchaseTimeMillis\":" + result.PurchaseTimeMillis + ",\"purchaseState\":" + result.PurchaseState + ",\"developerPayload\":" + "\"" + result.DeveloperPayload + "\"}";
+                return retStr;
+
+                /*if (result.PurchaseState == 0)
                     return @"true";
                 else
                     return "false";
+                */ 
             }
             catch (Exception e)
             {
