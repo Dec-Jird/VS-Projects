@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Windows Desktop
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnionPayDLL", "UnionPay\UnionPayDLL.csproj", "{F4F3BBC3-5847-4176-94E2-5787D73870FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4F3BBC3-5847-4176-94E2-5787D73870FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4F3BBC3-5847-4176-94E2-5787D73870FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4F3BBC3-5847-4176-94E2-5787D73870FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4F3BBC3-5847-4176-94E2-5787D73870FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
